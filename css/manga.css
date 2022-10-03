@@ -1,0 +1,17 @@
+.def__ {
+    text-align: left;
+}
+
+.manga__ {
+    flex-direction: row;
+}
+
+.manga__ img {
+    height: 190px;
+    width: 120px;
+}
+
+.chain img {
+    height: 390px;
+    width: 370px;
+}

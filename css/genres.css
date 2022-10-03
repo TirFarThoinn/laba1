@@ -1,0 +1,36 @@
+.gg__gg {
+    margin-top: 60px;
+    flex-direction: column;
+}
+
+.genre {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    padding-bottom: 20px;
+}
+
+.genre__content img {
+    height: 180px;
+    width: 480px;
+}
+
+@media(max-width: 1150px) {
+    .genre__content {
+        width: 50%;
+    }
+    .genre__content img {
+        width: 100%;
+        height: fit-content;
+    }
+    .about {
+        width: 50%;
+        max-width: unset;
+    }
+}
+@media(max-width: 600px) {
+    .about p {
+        font-size: 20px;
+    }
+}
